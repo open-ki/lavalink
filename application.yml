@@ -16,7 +16,7 @@ lavalink:
       mixer: true
       http: true
       local: false
-    bufferDurationMs: 400
+    bufferDurationMs: 128
     youtubePlaylistLoadLimit: 5
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
@@ -24,7 +24,7 @@ lavalink:
 
 metrics:
   prometheus:
-    enabled: false
+    enabled: true
     endpoint: /metrics
 
 sentry:
